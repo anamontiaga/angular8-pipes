@@ -2,8 +2,7 @@ import { Component } from "@angular/core";
 
 @Component({
   selector: "app-root",
-  templateUrl: "./app.component.html",
-  styleUrls: ["./app.component.css"]
+  templateUrl: "./app.component.html"
 })
 export class AppComponent {
   nombre = "Fernando";
@@ -29,4 +28,5 @@ export class AppComponent {
 
   fecha = new Date();
   video = "7lECIsRif10";
+  activar: boolean = true;
 }
